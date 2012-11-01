@@ -1,3 +1,7 @@
 h1, h2{
-	font: normal small-caps satanick, "charlemagne std", sans-serif; 
+	font-family: Underdog, sans-serif; 
+}
+
+p{
+	font: italic large arial, sans-serif; 
 }
