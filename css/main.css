@@ -1,7 +1,82 @@
+body{
+	background-image: url(../images/EarthFromSpace.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	margin: 0 auto;
+	width: 800px;
+}
+
 h1, h2{
-	font-family: Underdog, sans-serif; 
+	font-family: Underdog, helvetica, sans-serif;
+	color: #00ff00; 
 }
 
 p{
-	font: italic 19px arial, sans-serif; 
+	font: normal 19px arial, helvetica, sans-serif;
+	color: black; 
+}
+
+section{
+	-moz-column-count: 3;
+}
+
+#titlestatement{
+	text-align: center;
+	color: black;
+}
+
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 2px grey;
+	color: white;
+}
+
+ul{
+	width: 400px;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navlist{
+	width: 100px;
+	float: left;
+}
+
+.navanchors{
+	text-decoration: none;
+	background: blue;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+}
+
+.navanchors:hover{
+	color: white;
+	background: black; 
+}
+
+.navanchors:visited{
+	color: grey
+}
+
+a:visited{
+	color: grey;
+}
+
+a:hover{
+	color: black;
+}
+
+aside{
+	width: 400px;
+	margin: 0 auto;
+}
+
+article{
+	width: 400px;
+	margin: 0 auto;
 }
