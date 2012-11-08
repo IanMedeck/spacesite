@@ -12,8 +12,20 @@ body{
 }
 
 h1, h2{
+	text-align: center;
 	font-family: Underdog, helvetica, sans-serif;
 	color: #00ff00; 
+}
+
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 2px #00ff00;
+	color: white;
+}
+
+header{
+	background: black;
+	width: 900px;
 }
 
 p{
@@ -23,29 +35,24 @@ p{
 
 section{
 	-moz-column-count: 3;
+	background: white;
 }
 
 #titlestatement{
 	text-align: center;
-	color: black;
-}
-
-h1{
-	text-align: center;
-	text-shadow: 2px 2px 2px grey;
 	color: white;
-}
-	
-h2{
-	text-align: center;
 }
 
 ul{
-	width: 450px;
+	width: 400px;
 	margin: 0 auto;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
+}
+
+nav{
+	background: black;
 }
 
 .navlist{
@@ -72,8 +79,13 @@ ul{
 	color: grey
 }
 
+a{
+	text-decoration: none;
+	color: white;
+}
+
 a:visited{
-	color: fuchsia;
+	color: grey;
 }
 
 a:hover{
@@ -81,11 +93,45 @@ a:hover{
 }
 
 aside{
-	width: 450px;
+	background: white;
+	text-align: center;
+	width: 900px;
 	margin: 0 auto;
+
+}
+
+.imageanchors{
+	background: blue;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;	
+}
+
+.imageanchors:hover{
+	color: white;
+	background: black;
+}
+
+.imageanchors:visited{
+	color: grey;
+}	
+
+li{
+	width: 100px;
+	float: left;
 }
 
 article{
-	width: 450px;
+	background: white;
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+footer{
+	background: white;
+	width: 900px;
 	margin: 0 auto;
 }
