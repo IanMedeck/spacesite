@@ -145,3 +145,27 @@ footer{
 	background: white;
 	width: 100.444444%;
 }
+
+/*-------------------------------meida-queries------------------------*/
+
+	@media screen and (min-width: 768px)and(max-width: 959px) {
+	#wrapper{background-color: #509cff;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
