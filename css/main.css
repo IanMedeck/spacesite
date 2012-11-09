@@ -1,8 +1,16 @@
 body{
 	background: url("../images/backgroundgradient.png");
 	font: 100%/1.5 "Helvetica Neue", arial, sans-serif;
+	max-width: 960px;
 	margin: 0 auto;
 	width: 900px;
+}
+
+wrapper{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	background: white;
 }
 
 h1, h2{
@@ -14,26 +22,26 @@ h1, h2{
 
 h1{
 	text-align: center;
-	text-shadow: 2px 2px 2px #00ff00;
+	text-shadow: .125em .125em .125em #00ff00;
 	color: white;
 }
 
 header{
 	background: black;
 	border: 2px solid white;
-	width: 900px;
+	width: 100%; 
 	margin: 0 auto;
 }
 
 p{
-	font: normal 19px arial, helvetica, sans-serif;
+	font: normal 1.1875em arial, helvetica, sans-serif;
 	color: black; 
 }
 
 section{
 	-moz-column-count: 3;
 	background: white;
-	width: 900px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 2px;
 }
@@ -56,7 +64,7 @@ nav{
 	border-top: 2px solid white;
 	border-left: 2px solid white;
 	border-right: 2px solid white;
-	width: 900px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -100,7 +108,7 @@ a:hover{
 aside{
 	background: white;
 	text-align: center;
-	width: 904px;
+	width: 100.444444%;
 	margin: 0 auto;
 }
 
@@ -128,12 +136,12 @@ li{
 
 article{
 	background: white;
-	width: 904px;
+	width: 100.444444%;
 	margin: 0 auto;
 	text-align: center;
 }
 
 footer{
 	background: white;
-	width: 904px;
+	width: 100.444444%;
 }
