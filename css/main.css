@@ -1,16 +1,19 @@
 body{
 	background: url("../images/backgroundgradient.png");
 	font: 100%/1.5 "Helvetica Neue", arial, sans-serif;
-	max-width: 960px;
+	max-width: 900px;
 	margin: 0 auto;
-	width: 900px;
 }
 
-wrapper{
+#earth img{
+	max-width: 100%;
+}
+
+#wrapper{
+	background: black;
 	width: 100%;
-	margin: 0 auto;
-	overflow: hidden;
-	background: white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
 }
 
 h1, h2{
@@ -28,7 +31,6 @@ h1{
 
 header{
 	background: black;
-	border: 2px solid white;
 	width: 100%; 
 	margin: 0 auto;
 }
@@ -43,7 +45,6 @@ section{
 	background: white;
 	width: 100%;
 	margin: 0 auto;
-	padding: 2px;
 }
 
 #titlestatement{
@@ -51,10 +52,15 @@ section{
 	color: white;
 }
 
+li{
+	width: 25%;
+	float: left;
+}
+
 ul{
 	width: 400px;
 	margin: 0 auto;
-	list-style-type: none;
+	list-style-type: none; 
 	padding: 0;
 	overflow: hidden;
 }
@@ -62,15 +68,8 @@ ul{
 nav{
 	background: black;
 	border-top: 2px solid white;
-	border-left: 2px solid white;
-	border-right: 2px solid white;
 	width: 100%;
 	margin: 0 auto;
-}
-
-.navlist{
-	width: 100px;
-	float: left;
 }
 
 .navanchors{
@@ -108,7 +107,7 @@ a:hover{
 aside{
 	background: white;
 	text-align: center;
-	width: 100.444444%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -129,33 +128,37 @@ aside{
 	color: grey;
 }	
 
-li{
-	width: 100px;
-	float: left;
-}
-
 article{
 	background: white;
-	width: 100.444444%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
 
 footer{
 	background: white;
-	width: 100.444444%;
+	width: 100%;
 }
 
 /*-------------------------------meida-queries------------------------*/
 
-	@media screen and (min-width: 768px)and(max-width: 959px) {
-	#wrapper{background-color: #509cff;}
+	@media screen and (min-width: 768px) and (max-width: 959px) {
+		#wrapper{background-color: #509cff;}
 }
 
+	@media onfile:///Users/ianmedeck/Sites/spacesite/images/earth-from-space.jpgly screen and (min-width: 480px) and (max-width: 767px) {
+		#wrapper{background-color: #ff7743;}
+}
 
-
-
-
+	@media only screen and (max-width: 479px) {
+		#wrapper{background-color: #d593ff;}
+		li{float: none;
+		margin: 0 auto;
+		}
+		body{background: none;
+		margin: 0 center;
+		}
+}
 
 
 
