@@ -3,6 +3,7 @@ body{
 	font: 100%/1.5 "Helvetica Neue", arial, sans-serif;
 	max-width: 900px;
 	margin: 0 auto;
+	border: 2px solid white;
 }
 
 #earth img{
@@ -12,8 +13,6 @@ body{
 #wrapper{
 	background: black;
 	width: 100%;
-	border-left: 2px solid white;
-	border-right: 2px solid white;
 }
 
 h1, h2{
@@ -67,7 +66,6 @@ ul{
 
 nav{
 	background: black;
-	border-top: 2px solid white;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -104,6 +102,25 @@ a:hover{
 	color: black;
 }
 
+table{
+	border-collapse: collapse;
+	background: white;
+	border: 1px solid black;
+	width: 100%;
+}
+
+td{
+	border: 1px solid black;
+	padding: 0.3em;
+}
+
+th{
+	text-align: left;
+	background-color: silver;
+	color: white
+	padding: 0.3em;
+}
+
 aside{
 	background: white;
 	text-align: center;
@@ -138,41 +155,6 @@ article{
 footer{
 	background: white;
 	width: 100%;
-}
-
-.clear { /* generic container (i.e. div) for floating buttons */
-    overflow: hidden;
-    width: 100%;
-}
-
-a.button {
-    background: transparent url('bg_button_a.gif') no-repeat scroll top right;
-    color: #444;
-    display: block;
-    float: left;
-    font: normal 12px arial, sans-serif;
-    height: 24px;
-    margin-right: 6px;
-    padding-right: 18px; /* sliding doors padding */
-    text-decoration: none;
-}
-
-a.button span {
-    background: transparent url('bg_button_span.gif') no-repeat;
-    display: block;
-    line-height: 14px;
-    padding: 5px 0 5px 18px;
-} 
-
-a.button:active {
-    background-position: bottom right;
-    color: #000;
-    outline: none; /* hide dotted outline in Firefox */
-}
-
-a.button:active span {
-    background-position: bottom left;
-    padding: 6px 0 4px 18px; /* push text down 1px */
 } 
 
 /*-------------------------------meida-queries------------------------*/
