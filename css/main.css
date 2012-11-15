@@ -6,6 +6,11 @@ body{
 	border: 2px solid white;
 }
 
+#earth{
+	background: black;
+	width: 100%;
+}
+
 #earth img{
 	max-width: 100%;
 }
@@ -117,7 +122,7 @@ td{
 th{
 	text-align: left;
 	background-color: silver;
-	color: white
+	color: white;
 	padding: 0.3em;
 }
 
@@ -163,16 +168,25 @@ footer{
 		#wrapper{background-color: #509cff;}
 }
 
-	@media onfile:///Users/ianmedeck/Sites/spacesite/images/earth-from-space.jpgly screen and (min-width: 480px) and (max-width: 767px) {
+	@media screen and (min-width: 480px) and (max-width: 767px) {
 		#wrapper{background-color: #ff7743;}
+		section{
+		-moz-column-count: 2;
+		}
 }
 
 	@media only screen and (max-width: 479px) {
-		#wrapper{background-color: #d593ff;}
+		#wrapper{background-color: blue;}
 		li{float: none;
 		margin: 0 auto;
 		}
 		body{background: none;
+		}
+		section{
+		-moz-column-count: 1;
+		}
+		#earth{
+		display: none;
 		}
 }
 
