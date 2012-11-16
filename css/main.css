@@ -56,13 +56,17 @@ section{
 	color: white;
 }
 
+li{
+	width: 25%;
+	float: left;
+}
+
 ul{
 	width: 400px;
 	margin: 0 auto;
 	list-style-type: none; 
 	padding: 0;
 	overflow: hidden;
-	background: grey;
 }
 
 nav{
@@ -71,9 +75,7 @@ nav{
 	margin: 0 auto;
 }
 
-.navanchors{ 
-	width: 25%;
-	float: left;
+.navanchors{
 	text-decoration: none;
 	background: blue;
 	display: block;
@@ -85,7 +87,7 @@ nav{
 
 .navanchors:hover{
 	color: white;
-	background: white; 
+	background: black; 
 }
 
 .navanchors:visited{
@@ -132,11 +134,11 @@ aside{
 }
 
 .imageanchors{
-	float: left;
-	width: 25%;
-	text-decoration: none;
-	height: 100px;
+	background: blue;
+	display: block;
+	height: 30px;
 	line-height: 30px;
+	text-align: center;	
 }
 
 .imageanchors:hover{
