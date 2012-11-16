@@ -21,6 +21,10 @@ body{
 	width: 100%;
 }
 
+.button{
+	color: red;
+}
+
 h1, h2{
 	text-align: center;
 	font-family: Underdog, helvetica, sans-serif;
