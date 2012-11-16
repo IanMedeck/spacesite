@@ -4,6 +4,7 @@ body{
 	max-width: 900px;
 	margin: 0 auto;
 	border: 2px solid white;
+	
 }
 
 #earth{
@@ -16,7 +17,7 @@ body{
 }
 
 #wrapper{
-	background: black;
+	background: silver;
 	width: 100%;
 }
 
