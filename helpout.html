@@ -9,20 +9,124 @@
 	</head>
 	
 	<body>
-		<nav>
-			<ul>
-				<li><a class="navanchors" href="index.html">Home</a></li>
-				<li><a class="navanchors" href="about.html">About</a></li>
-				<li><a class="navanchors" href="contact.html">Contact</a></li>
-				<li><a class="navanchors" href="helpout.html">Help Me Out</a></li>
-			</ul>
-		</nav>
+		<div id="wrapper">
+			<nav>
+				<ul>
+					<li><a class="navanchors" href="index.html">Home</a></li>
+					<li><a class="navanchors" href="about.html">About</a></li>
+					<li><a class="navanchors" href="contact.html">Contact</a></li>
+					<li><a class="navanchors" href="helpout.html">Help Me Out</a></li>
+				</ul>
+			</nav>
 			
-		<header>
-			<h1>Space My Final Frontier</h1>
-			<p id="titlestatement">Space, my final frontier. These are the voyages that I want to have someday.
-			To boldly go where I haven't gone before.</p>
-			<div id="earth"><img src="images/spiral-galaxy.jpeg" alt="Space From Earth" width="900" height="580"></div>
-		</header>
-	</body
+			<h2>Make a Donation</h2>
+		
+			<form method="post" action="mailto:imedeck@me.com">
+			<h3>1. Amount you would like to donate</h3>
+				<div>
+					<label for="amount">Dollar Amount</label>
+					<input type="text" name="amount" id="amount"/>
+				</div>
+			<h3>2. Personal Information</h3>
+				<div>
+					<label for="firstname">First Name</label>
+					<input type="text" name="firstname" id="firstname"/>
+				</div>
+				<div>
+					<label for="lastname">Last Name</label>
+					<input type="text" name="lastname" id="lastname"/>
+				</div>
+				<div>
+					<label for="address">Address Line 1</label>
+					<input type="text" name="address" id="address"/>
+					<label for="address2">Address Line 2</label>
+					<input type="text" name="address2" id="address2"/>
+				</div>
+				<div>
+					<label for="city">City</label>
+					<input type="text" name="city" id="city"/>
+				</div>
+				<div>
+					<label for="state">State</label>
+				</div>
+				<div>
+					<select name="state" id="state">
+						<option>AL</option>
+						<option>AK</option>
+						<option>AZ</option>
+						<option>AR</option>
+						<option>CA</option>
+						<option>CO</option>
+						<option>CT</option>
+						<option>DE</option>
+						<option>FL</option>
+						<option>GA</option>
+						<option>HI</option>
+						<option>ID</option>
+						<option>IL</option>
+						<option>IN</option>
+						<option>IA</option>
+						<option>KS</option>
+						<option>KY</option>
+						<option>LA</option>
+						<option>ME</option>
+						<option>MD</option>
+						<option>MA</option>
+						<option>MI</option>
+						<option>MN</option>
+						<option>MS</option>
+						<option>MO</option>
+						<option>MT</option>
+						<option>NE</option>
+						<option>NV</option>
+						<option>NH</option>
+						<option>NJ</option>
+						<option>NM</option>
+						<option>NY</option>
+						<option>NC</option>
+						<option>ND</option>
+						<option>OH</option>
+						<option>OK</option>
+						<option>OR</option>
+						<option>PA</option>
+						<option>RI</option>
+						<option>SC</option>
+						<option>SD</option>
+						<option>TN</option>
+						<option>TX</option>
+						<option>UT</option>
+						<option>VT</option>
+						<option>VA</option>
+						<option>WA</option>
+						<option>WV</option>
+						<option>WI</option>
+						<option>WY</option>
+					</select>
+				</div>
+				<div>
+					<label for="zip">Zip Code</label>
+					<input type="text" name="zip" id="zip"/>
+				</div>
+				<div>
+					<label for="country">Country</label>
+					<input type="text" name="country" id="country"/>
+				</div>
+				<div>
+					<label for="email">Email Address</label>
+					<input type="text" name="email" id="email"/>
+				</div>
+			<h3>3. Payment Method</h3>
+				<div>
+					<label for="paypal">PayPal</label>
+					<input type="checkbox" name="paypal" id="paypal"/>
+				
+					<label for="credit/debit">Credit/Debit</label>
+					<input type="checkbox" name="credit/debit" id="credit/debit"/>
+				
+					<label for="check/moneyorder">Check/Moneyorder</label>
+					<input type="checkbox" name="check/moneyorder" id="check/moneyorder"/>
+				</div>		
+			</form>
+		</div>
+	</body>
 </html>
